@@ -1,0 +1,10 @@
+﻿  UDPdump.c
+UDPdump.c(143): warning C4473: “fprintf”: 没有为格式字符串传递足够的参数
+  UDPdump.c(143): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  UDPdump.c(143): note: the missing variadic argument 1 is required by format string '%s'
+  正在生成代码
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  UDPdump.vcxproj -> E:\work\WpcapSrc_4_1_3\Examples-pcap\\Release\x64\UDPdump.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。

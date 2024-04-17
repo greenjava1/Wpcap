@@ -1,0 +1,23 @@
+﻿生成启动时间为 2024/4/17 13:16:48。
+     1>项目“E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\Packet.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\work\share\vcpkg\installed\x64-windows\lib" /LIBPATH:"E:\work\share\vcpkg\installed\x64-windows\lib\manual-link" version.lib setupapi.lib ws2_32.lib iphlpapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\work\share\vcpkg\installed\x64-windows\lib\*.lib" /DEF:"..\packet.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.lib" /MACHINE:X64 /DLL "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\version.res"
+         "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\win_bpf_filter.obj"
+         "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\AdInfo.obj"
+         "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\NpfImExt.obj"
+         "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet32.obj"
+           正在创建库 E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.lib 和对象 E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.exp
+         正在生成代码
+         All 66 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         Packet.vcxproj -> E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.dll
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\work\share\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.dll" "E:\work\share\vcpkg\installed\x64-windows\bin" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.tlog\Packet.write.1u.tlog" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\vcpkg.applocal.log"
+         'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+         或批处理文件。
+         "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\work\share\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.dll" "E:\work\share\vcpkg\installed\x64-windows\bin" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\Packet.tlog\Packet.write.1u.tlog" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Release No NetMon\x64\vcpkg.applocal.log"
+     1>已完成生成项目“E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\Packet.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.39

@@ -1,0 +1,20 @@
+﻿生成启动时间为 2024/4/17 13:39:07。
+     1>项目“E:\work\WpcapSrc_4_1_3\Examples-pcap\basic_dump_ex\basic_dump_ex.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\) contains files shared from another project (basic_dump.vcxproj, iflist.vcxproj, pcap_filter.vcxproj, pktdump_ex.vcxproj, readfile.vcxproj, readfile_ex.vcxproj, savedump.vcxproj, sendpack.vcxproj, UDPdump.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /I"E:\work\share\vcpkg\installed\x86-windows\include" /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\\" /Fd"E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt basic_dump_ex.c
+         basic_dump_ex.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\basic_dump_ex.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib /LIBPATH:"E:\work\share\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"E:\work\share\vcpkg\installed\x86-windows\debug\lib\manual-link" wpcap.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\work\share\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\basic_dump_ex.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\basic_dump_ex.lib" /MACHINE:X86 /SAFESEH "E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\basic_dump_ex.obj"
+     1>basic_dump_ex.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         basic_dump_ex.vcxproj -> E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\basic_dump_ex.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\work\share\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\basic_dump_ex.exe" "E:\work\share\vcpkg\installed\x86-windows\debug\bin" "E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\basic_dump_ex.tlog\basic_dump_ex.write.1u.tlog" "E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\vcpkg.applocal.log"
+         'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+         或批处理文件。
+         "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\work\share\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\basic_dump_ex.exe" "E:\work\share\vcpkg\installed\x86-windows\debug\bin" "E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\basic_dump_ex.tlog\basic_dump_ex.write.1u.tlog" "E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x86\vcpkg.applocal.log"
+     1>已完成生成项目“E:\work\WpcapSrc_4_1_3\Examples-pcap\basic_dump_ex\basic_dump_ex.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.58

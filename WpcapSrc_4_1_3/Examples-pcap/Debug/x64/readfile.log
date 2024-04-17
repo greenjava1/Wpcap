@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x64\) contains files shared from another project (basic_dump.vcxproj, basic_dump_ex.vcxproj, iflist.vcxproj, pcap_filter.vcxproj, pktdump_ex.vcxproj, UDPdump.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  readfile.c
+  readfile.vcxproj -> E:\work\WpcapSrc_4_1_3\Examples-pcap\\Debug\x64\readfile.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。

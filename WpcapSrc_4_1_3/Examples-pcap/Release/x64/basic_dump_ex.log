@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (E:\work\WpcapSrc_4_1_3\Examples-pcap\\Release\x64\) contains files shared from another project (basic_dump.vcxproj, UDPdump.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  basic_dump_ex.c
+  正在生成代码
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  basic_dump_ex.vcxproj -> E:\work\WpcapSrc_4_1_3\Examples-pcap\\Release\x64\basic_dump_ex.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。

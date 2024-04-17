@@ -1,0 +1,56 @@
+﻿生成启动时间为 2024/4/17 13:00:32。
+     1>项目“E:\work\WpcapSrc_4_1_3\wpcap\PRJ\wpcap.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\libpcap /I..\libpcap\lbl /I..\libpcap\bpf\ /I..\..\common /I..\libpcap\win32\include /I"..\Win32-Extensions" /I..\..\..\AirPcap_DevPack\include /I"E:\work\share\vcpkg\installed\x86-windows\include" /ZI /nologo /W3 /WX- /Od /Oy- /D LIBPCAP_EXPORTS /D WIN32 /D _DEBUG /D _WINDOWS /D HAVE_ADDRINFO /D YY_NEVER_INTERACTIVE /D yylval=pcap_lval /D HAVE_STRERROR /D __STDC__ /D INET6 /D SIZEOF_CHAR=1 /D SIZEOF_SHORT=2 /D SIZEOF_INT=4 /D WPCAP /D HAVE_SNPRINTF /D HAVE_VSNPRINTF /D HAVE_REMOTE /D HAVE_AIRPCAP_API /D _U_= /D _CRT_SECURE_NO_WARNINGS /D YY_NO_UNISTD_H /D HAVE_TC_API /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug\x86\\" /Fd"E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug\x86\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\libpcap\bpf\net\bpf_filter.c ..\libpcap\bpf_dump.c ..\libpcap\bpf_image.c ..\libpcap\etherent.c "..\libpcap\fad-win32.c" ..\libpcap\gencode.c ..\libpcap\grammar.c ..\libpcap\inet.c ..\libpcap\nametoaddr.c ..\libpcap\optimize.c "..\libpcap\pcap-new.c" "..\libpcap\pcap-remote.c" "..\libpcap\pcap-tc.c" "..\libpcap\pcap-win32.c" ..\libpcap\pcap.c ..\libpcap\savefile.c ..\libpcap\scanner.c ..\libpcap\sockutils.c ..\libpcap\Win32\Src\ffs.c ..\libpcap\Win32\Src\getservent.c "..\Win32-Extensions\Win32-Extensions.c"
+         Win32-Extensions.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         getservent.c
+         ffs.c
+         sockutils.c
+         scanner.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         savefile.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         pcap.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         pcap-win32.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         pcap-tc.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         pcap-remote.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         pcap-new.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         optimize.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         nametoaddr.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         inet.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         grammar.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         gencode.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         fad-win32.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         etherent.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         bpf_image.c
+     1>e:\work\wpcapsrc_4_1_3\common\packet32.h(51): fatal error C1083: 无法打开包括文件: “airpcap.h”: No such file or directory
+         bpf_dump.c
+         正在生成代码...
+         正在编译...
+         bpf_filter.c
+     1>e:\work\wpcapsrc_4_1_3\wpcap\libpcap\bpf\net\bpf_filter.c(283): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\work\wpcapsrc_4_1_3\wpcap\libpcap\bpf\net\bpf_filter.c(342): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\work\wpcapsrc_4_1_3\wpcap\libpcap\bpf\net\bpf_filter.c(359): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\work\wpcapsrc_4_1_3\wpcap\libpcap\bpf\net\bpf_filter.c(501): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+     1>e:\work\wpcapsrc_4_1_3\wpcap\libpcap\bpf\net\bpf_filter.c(544): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\work\wpcapsrc_4_1_3\wpcap\libpcap\bpf\net\bpf_filter.c(642): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\work\wpcapsrc_4_1_3\wpcap\libpcap\bpf\net\bpf_filter.c(650): warning C4018: “>=”: 有符号/无符号不匹配
+         正在生成代码...
+     1>已完成生成项目“E:\work\WpcapSrc_4_1_3\wpcap\PRJ\wpcap.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.54

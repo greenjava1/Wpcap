@@ -1,0 +1,37 @@
+﻿生成启动时间为 2024/4/17 13:24:26。
+     1>项目“E:\work\WpcapSrc_4_1_3\wpcap\PRJ\wpcap.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.dll" /INCREMENTAL /NOLOGO /LIBPATH:"..\..\packetNtx\Dll\Project\Debug No NetMon\x64" /LIBPATH:"E:\work\share\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"E:\work\share\vcpkg\installed\x64-windows\debug\lib\manual-link" ws2_32.lib packet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\work\share\vcpkg\installed\x64-windows\debug\lib\*.lib" /DEF:"wpcap.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.lib" /MACHINE:X64 /DLL "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\version.res"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\bpf_filter.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\bpf_dump.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\bpf_image.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\etherent.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\fad-win32.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\gencode.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\grammar.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\inet.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\nametoaddr.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\optimize.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\pcap-new.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\pcap-remote.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\pcap-tc.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\pcap-win32.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\pcap.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\savefile.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\scanner.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\sockutils.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\ffs.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\getservent.obj"
+         "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\Win32-Extensions.obj"
+           正在创建库 E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.lib 和对象 E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.exp
+         wpcap.vcxproj -> E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.dll
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\work\share\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.dll" "E:\work\share\vcpkg\installed\x64-windows\debug\bin" "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.tlog\wpcap.write.1u.tlog" "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\vcpkg.applocal.log"
+         'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+         或批处理文件。
+         "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\work\share\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.dll" "E:\work\share\vcpkg\installed\x64-windows\debug\bin" "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\wpcap.tlog\wpcap.write.1u.tlog" "E:\work\WpcapSrc_4_1_3\wpcap\PRJ\\Debug No AirPcap\x64\vcpkg.applocal.log"
+     1>已完成生成项目“E:\work\WpcapSrc_4_1_3\wpcap\PRJ\wpcap.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.46

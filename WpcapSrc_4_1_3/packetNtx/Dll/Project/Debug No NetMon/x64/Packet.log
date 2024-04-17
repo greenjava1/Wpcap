@@ -1,0 +1,38 @@
+﻿生成启动时间为 2024/4/17 13:15:30。
+     1>项目“E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\Packet.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\Common /I..\..\driver /I..\..\..\..\AirPcap_devpack\include /I"E:\work\share\vcpkg\installed\x64-windows\include" /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D HAVE_IPHELPER_API /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\\" /Fd"E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\vc140.pdb" /Gd /TC /errorReport:prompt ..\..\driver\win_bpf_filter.c ..\AdInfo.c ..\NpfImExt.c ..\Packet32.c
+         Packet32.c
+         Compiling Packet.dll with support from IP helper API for API addresses
+     1>..\Packet32.c(1315): warning C4996: 'GetVersion': 被声明为已否决
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+         NpfImExt.c
+         AdInfo.c
+     1>..\AdInfo.c(920): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+     1>..\AdInfo.c(930): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+     1>..\AdInfo.c(933): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+         win_bpf_filter.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _WINVISTA /D _UNICODE /D UNICODE /l"0x0409" /I"E:\work\share\vcpkg\installed\x64-windows\include" /nologo /fo"E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\version.res" ..\version.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.dll" /INCREMENTAL /NOLOGO /LIBPATH:"E:\work\share\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"E:\work\share\vcpkg\installed\x64-windows\debug\lib\manual-link" version.lib setupapi.lib ws2_32.lib iphlpapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\work\share\vcpkg\installed\x64-windows\debug\lib\*.lib" /DEF:"..\packet.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.lib" /MACHINE:X64 /DLL "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\version.res"
+         "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\win_bpf_filter.obj"
+         "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\AdInfo.obj"
+         "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\NpfImExt.obj"
+         "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet32.obj"
+           正在创建库 E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.lib 和对象 E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.exp
+         Packet.vcxproj -> E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.dll
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "E:\work\share\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.dll" "E:\work\share\vcpkg\installed\x64-windows\debug\bin" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.tlog\Packet.write.1u.tlog" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\vcpkg.applocal.log"
+         'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+         或批处理文件。
+         "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "E:\work\share\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.dll" "E:\work\share\vcpkg\installed\x64-windows\debug\bin" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\Packet.tlog\Packet.write.1u.tlog" "E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\\Debug No NetMon\x64\vcpkg.applocal.log"
+     1>已完成生成项目“E:\work\WpcapSrc_4_1_3\packetNtx\Dll\Project\Packet.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.47
